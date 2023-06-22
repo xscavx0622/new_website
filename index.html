@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://kit.fontawesome.com/68185cfc21.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+  <div id="header">
+    <div class="container">
+       <nav>
+          <h1 class="logo">InkDesign...</h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <img src="images/moon.png" id="icon">
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+       </nav>
+
+       <div class="header-text">
+      
+        <h1>Crafting Digital Delight</h1>
+        <h2>Hi I'm Rock,</h2>
+        <h3>UX/UI Designer &amp; Frontend Developer</h3>
+       </div>
+
+    </div>
+  </div>
+
+<!-- About -->
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.jpg"  class="userimg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+
+          <p>I am a professional who has transitioned from the field of Interior Design to become a proficient UX/UI Designer and Frontend Developer. My expertise lies in creating digital experiences that are centered around the user, utilizing design thinking methodologies, conducting user research, and implementing visual design concepts. My motivation is to deliver impactful designs that strike a balance between business objectives and user needs, resulting in a seamless user experience.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Softwares</span><br>Figma<br>Adobe XD<br>Adobe Photoshop<br>Adobe Illustrator<br>VsCode<br>Blender</li>
+              <li><span>Languages</span><br>HTML<br>CSS<br>JavaScript<br>React.JS<br>Tailwind</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2021 - Present</span><br>Freelance UX/UI Designer &amp; Web Developers</li>
+              <li><span>2018 - 2019</span><br>Self-Employed Graphic Designer</li>
+              <li><span>2016 - 2017</span><br>Lead Set Desinger at Tele Lumiere</li>
+              <li><span>2014 - 2016</span><br>Interior Architect Freelancer</li>
+              <li><span>2010 - 2014</span><br>Various Interior Design Jobs</li>
+            </ul>
+          </div>
+          
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2023</span><br>John Hopkins Universtity Web Development Certificate</li>
+              <li><span>2022</span><br>Google/Coursera Ceritificate in User Experience Studies</li>
+              <li><span>2014</span><br>AUL University  MBA Interior Design</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- services -->
+
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">Services</h1>
+      <div class="services-list">
+
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>As a self-employed frontend web developer with 1 year of experience, I provide cutting-edge solutions to bring your website to life. I specialize in crafting responsive and user-friendly web interfaces that deliver an exceptional user experience. From writing clean and efficient code to optimizing performance, I ensure your website is fast, functional, and visually appealing across various devices and browsers. Whether you need a new website built from scratch or enhancements to an existing one, I am dedicated to delivering high-quality frontend development services tailored to your unique requirements.</p>
+            <a href="#">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UX/UI Design</h2>
+            <p>As a self-employed UX/UI designer with 1 year of experience, I offer top-notch design services that combine user experience and visual aesthetics. I specialize in creating intuitive and captivating interfaces that leave a lasting impact. From wireframing to prototyping, I ensure every step of the design process is meticulously executed. Whether you're launching a new website or revamping an existing product, I can help elevate your brand with seamless user experiences.</p>
+            <a href="#">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>As a self-employed app designer with 1 year of experience, I specialize in crafting captivating and user-friendly mobile applications. I bring your app ideas to life by creating intuitive interfaces, seamless navigation, and visually appealing designs. With a deep understanding of mobile design principles and the latest trends, I ensure that your app stands out in the competitive market. From wireframing and prototyping to creating pixel-perfect UI elements, I pay attention to every detail to deliver an exceptional user experience. Whether you need a brand new app or a redesign of an existing one, I am dedicated to creating engaging and functional app designs that leave a lasting impression on your users. Let's collaborate to transform your app vision into a reality!</p>
+            <a href="#">Learn More</a>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio -->
+
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+
+          <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+              <h3>Weather App</h3>
+              <p>Introducing our weather app: a sleek and intuitive solution that provides real-time weather updates, personalized forecasts, and a delightful user experience. Stay informed and prepared for any weather condition with our beautifully designed and user-friendly interface.</p>
+              <a href="https://www.behance.net/gallery/155759485/Weather-App-with-Community-Assets"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+              <h3>Login/Register</h3>
+              <p>Seamlessly access and secure your online world with our streamlined user login/registration form.</p>
+              <a href="https://www.behance.net/gallery/169320425/LoginRegister-Page"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+              <h3>Blockchain Solutions</h3>
+              <p>Unlock the potential of blockchain technology with our specialized crypto management solution, ensuring secure and efficient transactions.</p>
+              <a href="https://www.behance.net/gallery/169792287/Blockchain-Solution-UX-Mockup"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+
+          </div>
+        </div>
+        <a href="https://www.behance.net/rockz1" class="btn">See More</a>
+      </div>
+    </div>
+  
+<!-- contact -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+            <p><i class="fa-solid fa-phone"></i> 012134556789</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/rock-z-72a993226/"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/xscavx0622"><i class="fab fa-github"></i></a>
+              <a href="https://www.behance.net/rockz1"><i class="fab fa-behance"></i></a>
+              <a href="https://codepen.io/your-work"><i class="fab fa-codepen"></i></a>
+              
+              <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+          </div>
+
+
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+
+
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Rock.Z</p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+  <script>
+
+ var tablinks = document.getElementsByClassName("tab-links");
+ 
+ var tabcontents = document.getElementsByClassName("tab-contents");
+ function opentab(tabname){
+
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+ }
+
+</script>
+
+
+<script>
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu() {
+    sidemenu.style.right = "0";
+  }
+
+  function closemenu() {
+    sidemenu.style.right = "-200px";
+  }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzpypAGFqMctH7PoWrl4uADIxiCAA0atVulNECiQBXSBQgohDE60bTYOJ_jmPAVVjH1Zg/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function() {
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<script>
+
+  var icon = document.getElementById("icon");
+
+  icon.onclick = function() {
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+      icon.src =  "images/sun.png";
+    }else{
+      icon.src = "images/moon.png";
+    }
+  }
+
+</script>
+
+</body>
+</html>
